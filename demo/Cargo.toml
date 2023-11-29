@@ -1,0 +1,9 @@
+[package]
+name = "demo"
+version = "0.1.0"
+authors = ["TheMultiplexer <joshua@rutschmann.tech>"]
+edition = "2018"
+
+[dependencies]
+corrodedweb = { path = "../corrodedweb" }
+threadpool = "1.7.1"

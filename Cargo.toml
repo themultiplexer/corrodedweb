@@ -1,0 +1,15 @@
+[package]
+name = "corrodedweb"
+version = "1.0.0"
+authors = ["TheMultiplexer <joshua@rutschmann.tech>", "Marius Rodi <marius.r.rodi@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+humantime = "1.2.0"
+reqwest = "0.9.18"
+
+[lib]
+name = "corrodedweb"
+path = "src/lib.rs"
+test = true
+doctest = true
